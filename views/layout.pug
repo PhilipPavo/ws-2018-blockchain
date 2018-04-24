@@ -1,0 +1,22 @@
+extends basic-layout
+
+block header
+    nav.navbar.navbar-default(role="navigation")
+        div.navbar-header
+            a(class="navbar-brand" href="/") Система голосования
+        div
+            ul.nav.navbar-nav
+                li
+                    a(href="/profile") Личный кабинет
+                li
+                    a(href="/polls") Голосования
+                li
+                    a(href="/users") Пользователи
+                li
+                    a(href="/about") Как это работает?
+
+            ul.nav.navbar-nav.navbar-right
+                li
+                    a(href="/auth/logout") Выйти
+
+block content

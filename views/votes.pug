@@ -1,0 +1,11 @@
+extends layout
+
+block content
+    div.container
+        h2  Создатель: #{votes.creator}
+        div(align="center")
+            h1 #{votes.title}
+        div #{votes.description}
+        div(align="center")
+            button.btn.btn-success.btn-lg(type="button") Согласиться
+            button.btn.btn-danger.btn-lg(type="button") Отвергнуть

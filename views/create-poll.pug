@@ -1,0 +1,36 @@
+extends layout
+
+block content
+    .div(style="width: 600px; margin: 0 auto;")
+        .panel.panel-default
+            .panel-body
+                h1 Создание нового голосования
+                hr
+                .form(role="form")
+                    .form-group
+                        label.control-label Тема голосования
+                        input.form-control(name="title" type="text" placeholder="Введите вопрос голосования")
+
+                    .form-group
+                        label.control-label Описание голосования
+                        textarea.form-control(name="description" placeholder="Введите описание голосования")
+
+                    .form-group
+                        label Роль голосования
+                        .radio
+                            label Студент
+                                input(id="role1" type="radio" name="role" value="STUDENT")
+
+                        .radio
+                            label ППС
+                                input(id="role3" type="radio" name="role" value="PPS")
+
+                        .radio
+                            label ППС входящие в УСУ
+                                input(id="role4" type="radio" name="role" value="PPS_USU")
+
+
+                    .form-group
+                        .btn.btn-success.pull-right#btn-register Создать голосование
+
+    script(src="/javascripts/create-poll.js")

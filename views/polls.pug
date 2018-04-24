@@ -1,0 +1,23 @@
+extends layout
+
+block content
+    .panel.panel-default
+        .panel-body
+            h1 Список голосований
+            b Голосований: #{polls.length}
+            a.btn.btn-success.pull-right(href="/polls/new") Создать голосование
+            table.table.table-striped
+                thead
+                    tr
+                        th Тема голосования
+                        th Роль
+                        th Дата создания
+                        th
+                    tbody
+                    each poll in polls
+                        tr
+                            td #{poll.payload.title}
+                            td #{poll.payload.role}
+                            td #{new Date(poll.datetime).toLocaleString()}
+                            td
+                                a.btn.btn-success.pull-right(href="/polls/"+poll.payload.id) Перейти

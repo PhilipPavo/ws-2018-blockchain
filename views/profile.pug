@@ -1,0 +1,41 @@
+extends layout
+
+block content
+    .container
+
+        h1 Личный кабинет
+            small (#{user.payload.role})
+            small.pull-right Здравствуйте, #{user.payload.fullName}
+        hr
+        div.container
+            .row
+                .col-sm-6
+                    .panel.panel-default
+                        .panel-body
+                            h3 Основная информация
+                            br
+                            div.form-group
+                                label() E-mail
+                                input.form-control(type="email" disabled placeholder="E-mail" value=user.payload.email)
+                            div.form-group
+                                label(for="name") ФИО
+                                input(type="text" class="form-control" id="name" placeholder="Введите ФИО" value=user.payload.fullName)
+                            div.form-group
+                                label() Роль
+                                input.form-control(type="select" disabled placeholder="Роль" value=user.payload.role)
+                            div.form-group
+                                label Дата регистрации
+                                p=`${new Date(user.datetime).toLocaleString()}`
+                            div.form-group
+                                button.btn.btn-success(disabled).pull-right Сохранить изменения
+
+                            .clearfix
+                            hr
+                            div.form-group
+                                h3 Управление ключами
+                                p Открытый ключ
+                                pre=user.payload.publicKey
+                                br
+                                button.btn.btn-primary(type="button" disabled) Создать новые пары ключей
+
+    script(src="/javascripts/profile.js")

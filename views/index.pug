@@ -1,0 +1,18 @@
+extends layout
+
+block content
+  table.table.table-striped
+    thead
+      tr
+        th Тема голосования
+        th Создатель
+        th Дата завершения
+        th
+      tbody
+      each vote in votes
+        tr
+          td #{vote.title}
+          td #{vote.creator}
+          td #{vote.date}
+          td
+            a.btn.btn-success(href="/votes") Подробно

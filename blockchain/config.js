@@ -1,0 +1,29 @@
+const ActionTypes = {
+    INIT: 'INIT',
+    INIT_ADMIN: 'INIT_ADMIN',
+    USER_PUBLIC_KEY_RECEIVED: 'USER_PUBLIC_KEY_RECEIVED',
+    USER_PRIVATE_KEY_RECEIVED: 'USER_PRIVATE_KEY_RECEIVED',
+    USER_PROFILE_UPDATE: 'USER_PROFILE_UPDATE',
+    USER_ROLE_CHANGE: 'USER_ROLE_CHANGE',
+    VOTE_REQUEST: 'VOTE_REQUEST',
+    VOTE_ANSWER: 'VOTE_ANSWER',
+};
+
+const UserRoles = {
+    STUDENT: 'STUDENT',
+    ASPIRANT: 'ASPIRANT',
+    PPS: 'PPS',
+    PPS_USU: 'PPS_USU',
+    AUDITOR: 'AUDITOR',
+    STUDENT_MEMBERS: 'STUDENT_MEMBERS',
+    PPS_MEMBERS: 'MEMBERS',
+    ADMIN: 'ADMIN'
+};
+
+const BlockSize = 4;
+
+module.exports = {
+    ActionTypes,
+    UserRoles,
+    BlockSize
+};

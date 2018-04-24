@@ -1,0 +1,21 @@
+extends basic-layout
+
+block content
+    .auth-form
+        .h2 Войти в систему
+        br
+        br
+
+        .form(role="form")
+            .form-group
+                label.control-label Логин
+                input.form-control(name="login" type="text" placeholder="Введите ваш логин" value="pavophilip@gmail.com")
+
+            .form-group
+                label.control-label Приватный ключ
+                textarea.form-control(style="font-size: 12px;" rows="8" name="private_key" type="text" placeholder="Введите приватный ключ" )=private_key
+
+            .form-group
+                .btn.btn-success.pull-right#btn-register Войти
+
+    script(src="/javascripts/auth.js")

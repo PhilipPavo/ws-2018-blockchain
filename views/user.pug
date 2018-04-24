@@ -1,0 +1,64 @@
+extends layout
+
+block content
+    .div(style="width: 600px; margin: 0 auto;")
+        .panel.panel-default
+            .panel-body
+                h1 Создание нового пользователя
+                hr
+                .form(role="form")
+                    .form-group
+                        label.control-label Логин (E-mail)
+                        input.form-control(name="login" type="email" placeholder="Введите e-mail")
+
+                    .form-group
+                        label.control-label ФИО
+                        input.form-control(name="fullName" type="text" placeholder="Введите ФИО")
+
+                    .form-group
+                        .radio
+                            label Студент
+                                input(id="role1" type="radio" name="role" value="STUDENT")
+
+                        .radio
+                            label Аспирант
+                                input(id="role2" type="radio" name="role" value="ASPIRANT")
+
+                        .radio
+                            label ППС
+                                input(id="role3" type="radio" name="role" value="PPS")
+
+                        .radio
+                            label ППС входящие в УСУ
+                                input(id="role4" type="radio" name="role" value="PPS_USU")
+
+                        .radio
+                            label Аудитор
+                                input(id="role5" type="radio" name="role" value="AUDITOR")
+
+                        .radio
+                            label Члены студенческой избирательной комиссии
+                                input(id="role6" type="radio" name="role" value="STUDENT_MEMBERS")
+
+                        .radio
+                            label Члены ППС избирательной комиссии
+                                input(id="role7" type="radio" name="role" value="PPS_MEMBERS")
+
+                    small При регистрации пользователя будут сгенерированы пары ключей для участия в открытом и закрытом голосовании
+
+                    .form-group#registeredBlock(style="display: none")
+                        h3 Ключи пользователя
+                        h4 Открытое голосование
+
+                        pre#openKeysPublic
+                        pre#openKeysPrivate
+
+                        h4 Закрытое голосование
+                        p Логин
+                        pre#anonymousKeysPublic
+                        pre#anonymousKeysPrivate
+
+                    .form-group
+                        .btn.btn-success.pull-right#btn-register Создать пользователя
+
+    script(src="/javascripts/user.js")

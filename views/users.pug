@@ -1,0 +1,22 @@
+extends layout
+
+block content
+    .panel.panel-default
+        .panel-body
+            h1 Пользователи системы
+            b Пользователей: #{users.length}
+            a.btn.btn-success.pull-right(href="/users/new") Создать пользователя
+            table.table.table-striped
+                thead
+                    tr
+                        th Логин
+                        th Фио
+                        th Роль
+                        th Дата регистрации
+                    tbody
+                    each user in users
+                        tr
+                            td #{user.payload.login}
+                            td #{user.payload.fullName}
+                            td #{user.payload.role}
+                            td #{new Date(user.datetime).toLocaleString()}

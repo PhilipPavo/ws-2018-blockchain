@@ -1,0 +1,30 @@
+extends layout
+
+block content
+    .container
+
+        h1 Голосование
+        h3=poll.payload.title
+
+        hr
+        div.container
+            .row
+                .col-sm-6.col-sm-offset-3
+                    .panel.panel-default
+                        .panel-body
+                            input(type="hidden" value=poll.payload.id name="pollId")
+                            b Автор голосования: #{owner.payload.fullName}
+                            p=poll.payload.description
+
+                            if !userVote
+                                .btn-group
+                                    .btn.btn-success#btn-agree Голосовать за
+                                    .btn.btn-danger#btn-disagree Голосовать против
+
+                    .panel.panel-default
+                        .panel-body
+                            h4 Результаты голосования
+                            p.text-success Проголосовавшие за: #{agree.length}
+                            p.text-danger Проголосовавшие против: #{disagree.length}
+
+    script(src="/javascripts/poll-view.js")
