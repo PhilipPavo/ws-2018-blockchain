@@ -1,4 +1,6 @@
 # ws-2018-blockchain
+Demo:
+http://worldskills.philip.su/
 
 Clone repository
 ```
