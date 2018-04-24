@@ -2,54 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6f668d06-64e3-440b-ba8d-7d5f30412be1" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/blockchain.iml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/watcherTasks.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/README.md" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/bin/www" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/blockchain/Action.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/blockchain/Block.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/blockchain/BlockChainApi.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/blockchain/BlockChainNode.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/blockchain/User.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/blockchain/Utils.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/blockchain/config.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/data/blockchain.json" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/keys/key" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/package-lock.json" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/package.json" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/javascripts/auth.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/javascripts/common.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/javascripts/create-poll.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/javascripts/lib/jquery.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/javascripts/lib/jquery.min.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/javascripts/poll-view.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/javascripts/profile.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/javascripts/user.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/stylesheets/style.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/routes/api.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/routes/auth.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/routes/index.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/routes/polls.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/routes/profile.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/routes/users.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/routes/votes.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/views/auth.pug" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/views/basic-layout.pug" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/views/create-poll.pug" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/views/error.pug" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/views/index.pug" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/views/layout.pug" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/views/poll-view.pug" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/views/polls.pug" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/views/profile.pug" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/views/user.pug" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/views/users.pug" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/views/votes.pug" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -63,22 +18,25 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="poll-view.pug" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/views/poll-view.pug">
+      <file leaf-file-name="app.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="19" column="21" lean-forward="false" selection-start-line="19" selection-start-column="21" selection-end-line="19" selection-end-column="21" />
+            <state relative-caret-position="270">
+              <caret line="18" column="35" lean-forward="false" selection-start-line="18" selection-start-column="35" selection-end-line="18" selection-end-column="35" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/.gitignore">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="15">
-              <caret line="1" column="0" lean-forward="true" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
-              <folding />
+      <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="75">
+                <caret line="5" column="13" lean-forward="false" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+                <folding />
+              </first_editor>
+              <second_editor />
             </state>
           </provider>
         </entry>
@@ -101,12 +59,13 @@
         <option value="$PROJECT_DIR$/blockchain/BlockChainNode.js" />
         <option value="$PROJECT_DIR$/routes/auth.js" />
         <option value="$PROJECT_DIR$/views/auth.pug" />
-        <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/blockchain.js" />
         <option value="$PROJECT_DIR$/package.json" />
         <option value="$PROJECT_DIR$/app.js" />
         <option value="$PROJECT_DIR$/keys/key" />
         <option value="$PROJECT_DIR$/data/blockchain.json" />
+        <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
   </component>
@@ -210,7 +169,7 @@
       <workItem from="1524239355645" duration="29000" />
       <workItem from="1524302018058" duration="76000" />
       <workItem from="1524304682645" duration="242000" />
-      <workItem from="1524605243224" duration="482000" />
+      <workItem from="1524605243224" duration="705000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit">
       <created>1524605726186</created>
@@ -219,11 +178,18 @@
       <option name="project" value="LOCAL" />
       <updated>1524605726186</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Initial commit">
+      <created>1524605749362</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1524605749362</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2810000" />
+    <option name="totallyTimeSpent" value="3033000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
@@ -465,26 +431,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="18" column="35" lean-forward="false" selection-start-line="18" selection-start-column="35" selection-end-line="18" selection-end-column="35" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/package.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="165">
           <caret line="11" column="22" lean-forward="true" selection-start-line="11" selection-start-column="22" selection-end-line="11" selection-end-column="22" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/views/poll-view.pug">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="19" column="21" lean-forward="false" selection-start-line="19" selection-start-column="21" selection-end-line="19" selection-end-column="21" />
           <folding />
         </state>
       </provider>
@@ -508,8 +458,35 @@
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="15">
-          <caret line="1" column="0" lean-forward="true" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+          <caret line="1" column="5" lean-forward="true" selection-start-line="1" selection-start-column="5" selection-end-line="1" selection-end-column="5" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/poll-view.pug">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="19" column="21" lean-forward="false" selection-start-line="19" selection-start-column="21" selection-end-line="19" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="18" column="35" lean-forward="false" selection-start-line="18" selection-start-column="35" selection-end-line="18" selection-end-column="35" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="75">
+            <caret line="5" column="13" lean-forward="false" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+            <folding />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>
